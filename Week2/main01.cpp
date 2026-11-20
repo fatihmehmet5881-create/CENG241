@@ -12,7 +12,16 @@ namespace ScopeB {
     }
 }
 
+namespace ScopeC {
+    void print() {
+        std::cout << "Namespace Scope C\n";
+    }
+}
+using namespace ScopeC;
+
 int main() {
     ScopeA::print();
     ScopeB::print();
+    print();
+    return 0;
 }
