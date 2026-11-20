@@ -16,4 +16,6 @@ using namespace ScopeB;
 
 int main() {
     print();
+    ScopeA::print();
+    return 0;
 }
