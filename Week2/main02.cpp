@@ -14,4 +14,5 @@ namespace ScopeB {
 
 int main() {
     //print();
+    //ERROR "'print' was not declared in this scope"
 }
