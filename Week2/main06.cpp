@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 template <class T>
@@ -14,6 +15,10 @@ int main() {
     double a, b;
     cin >> a >> b;
     cout << sum(a, b) << endl;
+
+    string name1 = "fatih", name2 = "mehmet";
+    string space = " ";
+    cout << sum(name1, sum(space, name2));
 
     return 0;
 }
